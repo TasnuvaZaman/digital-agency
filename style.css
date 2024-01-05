@@ -1,0 +1,1196 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    /* background-color: #ffeca4; */
+}
+
+.background{
+    background: url("background.jpeg");
+    width:98.9vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(0.4);
+ 
+}
+
+/* Header starts here */
+
+header{
+    width:98.9vw;
+    height:100px;
+    margin-top: 1px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 30px;
+    
+}
+
+.logo{
+    background-color: transparent;
+    width: 15px;
+    margin-top: 14px;
+    cursor: pointer;
+   
+}
+
+.nav{
+    padding: 40px 0px;
+    background-color: transparent;
+}
+
+
+.nav a{
+    padding: 20px 30px;
+    font-size: 18px;
+    color:white;
+    transition: all .52s ease;
+    background-color: transparent;
+}
+
+.nav a:hover{
+    scale: (1.1);
+    color:#fff44f;
+}
+
+header .btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    background-color: #f2f1e5;
+    border: none;
+    font-weight: 700;
+    transition: all .42s ease;
+}
+
+header .btn:hover{
+    background-color: #ffeca4;
+}
+
+/* -------------------Header ends here---------------- */
+
+/* --------------Home starts here----------------- */
+
+ .main-text h1{
+    font-size: 70px;
+    margin-left: 150px;
+    margin-top: 180px;
+    color: white;
+    text-transform: capitalize;
+    font-family: serif;
+    backdrop-filter: brightness(1);
+    background-color: transparent;
+}
+
+.main-text h5{
+    font-size: 22px;
+    margin-left: 700px;
+    margin-top: 110px;
+    color: white;
+    line-height: 1.2;
+    font-weight: 500;
+    backdrop-filter: brightness(1);
+    background-color: transparent;
+}
+
+/* --------------Home ends here----------------- */
+
+/* ----------------------Hire us section starts here-------------------- */
+
+.hire-us{
+    width:100%;
+    height:400px;
+    background-color: #f2f1e5;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.hire-us-text h1{
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 98px;
+    font-family: serif;
+    color: #342c2c;
+}
+
+.reason{
+    width:100%;
+    height:270px;
+    display: flex;
+}
+
+/* card 1 */
+
+.card1{  
+   padding: 70px 90px;
+    width:530px;
+    line-height: 1.5;
+}
+
+.card1 h5{
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family:serif;
+    color: #342c2c;
+}
+
+.card1 p{
+    font-size: 17px;
+    text-align: justify;
+    color: #342c2c;
+}
+
+/* card 2 */
+
+.card2{  
+    padding: 70px 90px;
+     width:530px;
+     line-height: 1.5;
+ }
+ 
+ .card2 h5{
+     font-size: 28px;
+     text-transform: capitalize;
+     margin-bottom: 10px;
+     font-family:serif;
+     color:#342c2c
+ }
+ 
+ .card2 p{
+     font-size: 17px;
+     text-align: justify;
+     color: #342c2c;
+ }
+
+ /* card 3 */
+
+ .card3{  
+    padding: 70px 60px;
+     width:530px;
+     line-height: 1.5;
+ }
+ 
+ .card3 h5{
+     font-size: 28px;
+     text-transform: capitalize;
+     margin-bottom: 10px;
+     font-family:serif;
+     color: #342c2c;
+ }
+ 
+ .card3 p{
+     font-size: 17px;
+     text-align: justify;
+     color: #342c2c;
+ }
+
+ /* ----------------------Hire us section ends here-------------------- */
+
+ /* -----------------about us section starts here----------------- */
+
+.about-us{
+    margin-top:480px;
+    width: 98.9vw;
+    height: 900px;
+    background-color: #ffeca4;
+} 
+ 
+.image{
+    width:500px;
+    height:700px;
+    position: absolute;
+    background-image: url("img1.png");
+    background-repeat: no-repeat;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+.about-us-text h1{
+   position: absolute;
+   top:1250px;
+   left:98px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.about-us-text h3{
+    position: absolute;
+    top:1350px;
+    left:98px;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+ .mission h3{
+    position: absolute;
+    top:1520px;
+    left:98px;
+    font-size: 29px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+ .mission p{
+    position: absolute;
+    top:1570px;
+    left:98px;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+ .vision h3{
+    position: absolute;
+    top:1770px;
+    left:98px;
+    font-size: 29px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+ .vision p{
+    position: absolute;
+    top:1826px;
+    left:98px;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+  /* -----------------about us section ends here----------------- */
+
+  /* -----------------client section starts here------------------ */
+
+.client{
+    width:98.9vw;
+    height:350px;
+    background-color: #f2f1e5;
+    position: absolute;
+    top:2100px
+}
+
+.client h3{
+   position: absolute;
+   top:70px;
+   left:510px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+
+ }
+
+ .logo-container{
+    position: absolute;
+    width:1200px;
+   height:100px;
+   top:200px;
+   left:180px;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+
+ .logo-container img{
+    width:140px;
+    height:40px
+ }
+
+ /* --------------client section ends------------- */
+
+  /* -----------------why choose us section starts here------------------*/
+
+ .why-choose-us{
+    width:98.9vw;
+    height:500px;
+    background-color: #f2f1e5;
+    position: absolute;
+    margin-top: 400px;
+ }
+
+ .why-choose-us h3{
+    position: absolute;
+   top:35px;
+   left:98px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+ }
+
+ .why-choose-us  h5{
+    position: absolute;
+    top:120px;
+    left:98px;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+ .why-choose-us  h6{
+    position: absolute;
+    top:200px;
+    left:98px;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.6;
+    color: #342c2c;
+ }
+
+  /* -----------------client section starts here------------------*/
+
+  /* Business section starts here */
+
+ .business{
+    width:98.9vw;
+    height:780px;
+    margin-top: 850px;
+    background-color: #2C2927;
+    position: absolute;
+ }
+
+ .business h1{
+    position: absolute;
+   top:500px;
+   left:110px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: white;
+
+ }
+
+ .business p{
+    position: absolute;
+   top:520px;
+   left:860px;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: sans-serif;
+   color: white;
+   line-height: 1.6;
+
+ }
+
+  /* Business section ends here */
+
+  /* Project section starts here */
+
+ .project{
+    width:1300px;
+    height:500px;
+    margin-top: 750px;
+    margin-left: 110px;
+    background-color: #ffeca4;
+    position: relative;
+ }
+
+ .project img{
+    width:800px;
+    height:500px;
+    float: right;
+ }
+
+ .project h4{
+    font-size: 34px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: serif;
+    color: #342c2c;
+ }
+
+ .project p{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: serif;
+    color: #342c2c;
+ }
+
+ .project button{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #342c2c;
+    color: #342c2c;
+ }
+
+ /* Project section ends here */
+
+ /* idea section starts here */
+
+ .idea{
+    width: 98.9vw;
+    height: 900px;
+    background-color: #f2f1e5;
+    position: absolute;
+    margin-top: 380px;
+ }
+
+ .idea h6{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 19px;
+    text-transform: capitalize;
+    color:#342c2c;
+ }
+
+ .idea h1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: serif;
+    text-transform: capitalize;
+    color:#342c2c;
+ }
+
+ .idea p{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 900px;
+    font-size: 19px;
+    text-transform: capitalize;
+    color:#342c2c;
+    line-height: 1.5;
+ }
+
+ .image-container{
+    width: 1250px;
+    height: 400px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: #f2f1e5;
+ }
+
+ .image-container img{
+    width:400px;
+    height:400px;
+    padding:0px 10px
+    
+ }
+
+ /* idea section ends here */
+
+ .subscribe{
+   width: 98.9vw;
+   height: 200px;
+   background-color: #FBE8A6;
+   position: absolute;
+   margin-top: 1270px;
+ }
+
+ .subscribe h1{
+   position: absolute;
+   top:75px;
+   left:150px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+ }
+
+ .subscribe input{
+   width:450px;
+   height:50px;
+   position: absolute;
+   margin-top: 80px;
+   margin-left:700px;
+   font-size: 18px;
+   padding:20px;
+   background-color: white;
+   border: none;
+   color:darkgray
+ }
+
+ .subscribe button{
+   width:200px;
+   height: 50px;
+   position: absolute;
+   margin-top:80px ;
+   margin-left: 1160px;
+   font-size: 18px;
+   font-weight: 700;
+   background-color: transparent;
+   border:1px solid #2C2927;
+   color: #342c2c;
+   cursor: pointer;
+ }
+
+ .footer-body{ 
+   width: 98.9vw;
+   height: 500px;
+   position: absolute;
+   margin-top: 1470px;
+   background-color: #f2f1e5;
+ }
+
+ .footer-head{
+   width: 1200px;
+   height: 100px;  
+   background-color: #f2f1e5;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 150px;
+   margin-top: 110px;
+ }
+ 
+ .footer-head img{
+   width: 200px;
+   height: 100px;
+ }
+
+ .footer-nav{
+   position: absolute;
+   margin-left: 700px;
+   margin-top: 40px;
+ }
+
+ .footer-nav a{
+    padding:30px 30px;
+    font-size: 19px;
+    color:#342c2c
+ }
+
+ .contact{
+   width: 1200px;
+   height: 100px;
+   background-color: #f2f1e5;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 260px;
+   margin-left: 147px;
+ }
+
+ .contact h2{
+   font-size: 20px;
+   margin-top: 30px;
+   color: #342c2c;
+ }
+
+ .contact-icons{
+   padding: 20px 0px;
+ }
+
+ .contact-icons img{
+   padding:20px;
+ }
+
+ /* -------------------------------------------------Service part starts here----------------------------------- */
+
+ .background1{
+   background: url("background.jpeg");
+    width:98.9vw;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(0.4);
+ }
+
+ .help{
+   width: 98.9vw;
+   height:800px;
+   position: absolute;
+   margin-top: 150px;
+   background-color: #FBE8A6;
+ }
+
+ .help h1{
+   margin-left: 550px;
+   margin-top: 90px;
+   font-size: 50px;
+   font-weight: 600;
+   font-family: serif;
+   color: #342c2c;
+ }
+
+ .box{
+   width:1200px;
+   height: 280px;
+   position: absolute;
+   margin-top: 60px;
+   margin-left: 165px;
+   background-color: #FBE8A6;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .option{
+   width:350px;
+   height:280px;
+   position: relative;
+   background-color: #FBE8A6;
+ }
+
+ .option h5{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 25px;
+   font-family: serif;
+   color:#342c2c
+ }
+
+ .option p{
+   text-align: center;
+   margin-top: 20px;
+   line-height: 1.5;
+   color: #342c2c;
+ }
+
+ .option button{
+   width:130px;
+   height:45px;
+   margin-left: 110px;
+   margin-top: 30px;
+   font-size: 17px;
+   background-color: #FBE8A6;
+   border: 1px solid #342c2c
+ }
+
+ .client-services{
+      width:98.9vw;
+      height:350px;
+      background-color: #f2f1e5;
+      position: absolute;
+      top:1100px
+ }
+
+ .client-services h3{
+   position: absolute;
+   top:70px;
+   left:510px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+
+ }
+
+ /* Business section starts here */
+
+ .business-service{
+   width:98.9vw;
+   height:780px;
+   margin-top: 1090px;
+   background-color: #2C2927;
+   position: absolute;
+}
+
+.business-service h1{
+   position: absolute;
+  top:500px;
+  left:110px;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: serif;
+  color: white;
+
+}
+
+.business-service p{
+   position: absolute;
+  top:520px;
+  left:860px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.6;
+
+}
+
+ /* Business section ends here */
+
+ /* Project section starts here */
+
+.project-service{
+   width:1300px;
+   height:500px;
+   margin-top: 1040px;
+   margin-left: 110px;
+   background-color: #ffeca4;
+   position: relative;
+}
+
+.project-service img{
+   width:800px;
+   height:500px;
+   float: right;
+}
+
+.project-service h4{
+   font-size: 34px;
+   position: absolute;
+   margin-top: 40px;
+   margin-left: 50px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.project-service p{
+   font-size: 20px;
+   position: absolute;
+   margin-top: 150px;
+   margin-left: 50px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.project-service button{
+   width: 200px;
+   height: 50px;
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 50px;
+   font-size: 17px;
+   background-color: transparent;
+   border: 1px solid #342c2c;
+   color: #342c2c;
+}
+
+/* Project section ends here */
+
+/* Footer starts here */
+
+
+.footer-body-service{ 
+   width: 98.9vw;
+   height: 500px;
+   position: absolute;
+   margin-top: 330px;
+   background-color: #f2f1e5;
+ }
+
+/* Footer ends here */
+
+
+  /* -------------------------------------------------Service part ends here----------------------------------- */
+
+  /* ----------------------------------------------About part starts here---------------------------------------- */
+
+.core-value {
+   position: absolute;
+   margin-top:160px;
+   width: 98.9vw;
+   height: 800px;
+   background-color: #ffeca4;
+
+} 
+   
+.core-value .image{
+   width:500px;
+   height:800px;
+   position: relative;
+   background-image: url("img1.png");
+   background-repeat: no-repeat;
+   margin-left: 110px;
+   margin-top: 120px;
+}
+
+.core-value h4{
+   position: absolute;
+    margin-left: 760px;
+    margin-top: 120px;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #342c2c;
+}
+
+.core-value p{
+   position: absolute;
+    margin-left: 760px;
+    margin-top: 240px;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #342c2c;
+}
+
+.core-value h1{
+   position: absolute;
+    margin-left: 760px;
+    margin-top: 450px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: serif;
+    color: #342c2c;
+}
+
+ul{
+   position: absolute;
+    margin-left: 790px;
+    margin-top: 550px;
+    font-size: 19px;
+    line-height: 1.9;
+    font-family: sans-serif;
+    list-style-type: none;
+    color: #342c2c;
+}
+
+ul li:before{
+   content: '\2014';
+   margin-left: -20px;
+   padding: 0px 10px;
+   color: #342c2c;
+}
+
+.client-review{
+   width:98.9vw;
+   height: 900px;
+  margin-top: 1050px;
+  position: absolute;
+}
+
+.client-review h1{
+   position: absolute;
+   top:120px;
+   left:100px;
+   font-size: 60px;
+   font-weight: 700;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.client-container{
+   width:1000px;
+   height:800px;
+   position: absolute;
+   margin-left: 230px;
+   margin-top: 240px;
+}
+
+.client-card1{
+   width: 480px;
+   height: 210px;
+   position: absolute;
+   margin-top: 30px;
+}
+
+.client-card2{
+   width: 480px;
+   height: 210px;
+   position: absolute;
+   margin-top:350px;
+}
+
+.client-card3{
+   width: 480px;
+   height: 210px;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 500px;
+}
+
+.client-card4{
+   width: 480px;
+   height: 210px;
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 500px;
+}
+
+.icon-container{
+   width:250px;
+   height:25px;
+   margin-top: 10px;
+}
+
+.icon-container img{
+   width: 20px;
+   height:20px;
+}
+
+.client-card1 p, .client-card2 p, .client-card3 p, .client-card4 p{
+   font-size: 16px;
+   margin-top: 25px;
+   color: #342c2c;
+}
+
+ .client-face{
+   width:400px;
+   height:70px;
+   position: absolute;
+   margin-top: 20px;
+}
+
+.client-face img{
+   width:80px;
+   height: 80px;
+   margin-left: 30px;
+   border-radius: 50%;
+   position: absolute;
+}
+
+.client-face h4{
+   margin-left: 130px;
+   margin-top: 0px;
+   font-size: 19px;
+   color:#342c2c
+}
+
+/* Business section starts here */
+
+.business-about{
+   width:98.9vw;
+   height:780px;
+   margin-top: 2090px;
+   background-color: #2C2927;
+   position: absolute;
+}
+
+.business-about h1{
+   position: absolute;
+  top:500px;
+  left:110px;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: serif;
+  color: white;
+
+}
+
+.business-about p{
+   position: absolute;
+  top:520px;
+  left:860px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.6;
+
+}
+
+ /* Business section ends here */
+
+ /* Project section starts here */
+
+.project-about{
+   width:1300px;
+   height:500px;
+   margin-top: 1990px;
+   margin-left: 110px;
+   background-color: #ffeca4;
+   position: relative;
+}
+
+.project-about img{
+   width:800px;
+   height:500px;
+   float: right;
+}
+
+.project-about h4{
+   font-size: 34px;
+   position: absolute;
+   margin-top: 40px;
+   margin-left: 50px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.project-about p{
+   font-size: 20px;
+   position: absolute;
+   margin-top: 150px;
+   margin-left: 50px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.project-about button{
+   width: 200px;
+   height: 50px;
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 50px;
+   font-size: 17px;
+   background-color: transparent;
+   border: 1px solid #342c2c;
+   color: #342c2c;
+}
+
+/* Project section ends here */
+
+/* Footer starts here */
+
+
+.footer-body-about{ 
+   width: 98.9vw;
+   height: 500px;
+   position: absolute;
+   margin-top: 390px;
+   background-color: #f2f1e5;
+ }
+
+/* Footer ends here */
+
+/* ----------------------------------------------About part ends here---------------------------------------- */
+
+
+
+
+/* ---------------------------------Contact part starts here--------------------------------------------- */
+
+.login-container h1{
+   position: absolute;
+   margin-left: 145px;
+   margin-top: 150px;
+   font-size: 55px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.login-container h5{
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 150px;
+   font-size: 16px;
+}
+
+.login-container h6{
+   position: absolute;
+   margin-top: 300px;
+   margin-left: 150px;
+   font-size: 16px;
+}
+
+.login-container h2{
+   position: absolute;
+   margin-top: 410px;
+   margin-left: 150px;
+   font-size: 55px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.h2-icon{
+  position: absolute;
+  width:150px;
+  height:25px;
+  margin-top: 490px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+.login-container{
+   width: 98.9vw;
+   height: 700px;
+   position: absolute;
+   margin-top: 120px;
+   background-color: #FBE8A6;
+}
+
+.login-box{
+   width: 650px;
+   height: 600px;
+   margin-top: 100px;
+   margin-left: 700px;
+   background-color: white;
+}
+
+.login-box h2{
+   position: absolute;
+   margin-left: 50px;
+   margin-top: 50px;
+   font-size: 40px;
+   font-family: serif;
+   color: #342c2c;
+}
+
+.name-input{
+   width: 530px;
+   height: 55px;
+   position: absolute;
+   margin-left: 58px;
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.name-input input{
+   width:250px;
+   padding:20px 30px;
+   font-size: 20px;
+   background-color: #FAFAFA;
+   border: 1px solid darkgray
+}
+
+.info-input{
+   width: 530px;
+   height: 225px;
+   position: absolute;
+   margin-left: 58px;
+   margin-top: 235px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.info-input input{
+   height: 55px;
+   font-size: 20px;
+   background-color: #FAFAFA;
+   border: 1px solid darkgray;
+   padding:20px 30px;
+}
+
+.login-box button{
+   width: 190px;
+   margin-top: 500px;
+   margin-left: 58px;
+   height: 50px;
+   border: 1px solid #342c2c;
+   font-size: 20px;
+   background-color: transparent;
+   color:#342c2c;
+}
+
+.footer-body-contact{ 
+   width: 98.9vw;
+   height: 500px;
+   position: absolute;
+   margin-top: 790px;
+ }
+
+/* ---------------------------------Contact part starts here--------------------------------------------- */
